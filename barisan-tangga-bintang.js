@@ -1,4 +1,4 @@
-var row = process.argv[2];
+var row = 5;
 
 for (var i = 1; i <= row; i++) {
 	var output = "";
@@ -7,13 +7,3 @@ for (var i = 1; i <= row; i++) {
 	}
 	console.log(`${output}`);
 }
-
-/*
-	OUTPUT
-
-		node barisan-tangga-bintang.js 3
-		*
-		**
-		***
-
-*/
